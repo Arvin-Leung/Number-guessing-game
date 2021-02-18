@@ -11,7 +11,7 @@ function checker () {
   // The line below grab the user's guess and stores it into the y variable
   let guess = document.getElementById('guess').value
   guess = parseInt(guess)
-    console.log(answer)
+  console.log(answer)
   // The lines below check if the number is too high or too low
   if (guess > answer) {
     alert('Sorry! Guess was too high!')
